@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <canvas id="canvasId" style="border: 1px solid black;"></canvas>
+
+    <label for="colourPicker">Choose a colour:</label>
+
+    <select onchange="changeColour()" name="colourPicker" id="colourPicker">
+        <option value="Black">Black</option>
+        <option value="Red">Red</option>
+        <option value="Blue">Blue</option>
+        <option value="Yellow">Yellow</option>
+        <option value="Green">Green</option>
+        <option value="Pink">Pink</option>
+        <option value="White">White</option>
+        <option value="Brown">Brown</option>
+    </select>
+    
+
+
+    <button onclick="clearCanvas()">Clear Canvas</button>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="draw.js"></script>
+</body>
+</html>
