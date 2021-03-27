@@ -5,7 +5,6 @@ ctx.canvas.width = 1680
 ctx.canvas.height = 1050
 
 
-const socket = io();
 
 let colour = "black"
 let paint = false
