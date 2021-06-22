@@ -218,3 +218,9 @@ p.blackkey.k{
   cursor: pointer;
 }
 /* Slider end */
+
+/* Indicator */
+
+.indicator {
+  height: 10px !important;
+}
